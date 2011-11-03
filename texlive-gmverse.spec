@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/gmverse
+# catalog-date 2008-09-06 11:23:59 +0200
+# catalog-license lppl
+# catalog-version v0.73
 Name:		texlive-gmverse
 Version:	v0.73
 Release:	1
@@ -40,6 +46,7 @@ of length.
 %{_texmfdistdir}/tex/latex/gmverse/gmverse.sty
 %doc %{_texmfdistdir}/doc/latex/gmverse/README
 %doc %{_texmfdistdir}/doc/latex/gmverse/gmverse.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -50,3 +57,5 @@ of length.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
