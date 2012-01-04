@@ -6,7 +6,7 @@
 # catalog-version v0.73
 Name:		texlive-gmverse
 Version:	v0.73
-Release:	1
+Release:	2
 Summary:	a package for typesetting (short) poems
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gmverse
