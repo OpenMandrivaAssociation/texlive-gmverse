@@ -1,13 +1,13 @@
-# revision 15878
+# revision 29803
 # category Package
 # catalog-ctan /macros/latex/contrib/gmverse
-# catalog-date 2008-09-06 11:23:59 +0200
+# catalog-date 2012-05-17 22:49:03 +0200
 # catalog-license lppl
 # catalog-version v0.73
 Name:		texlive-gmverse
 Version:	v0.73
-Release:	2
-Summary:	a package for typesetting (short) poems
+Release:	3
+Summary:	A package for typesetting (short) poems
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gmverse
 License:	LPPL
@@ -47,17 +47,3 @@ of length.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> v0.73-2
-+ Revision: 752365
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v0.73-1
-+ Revision: 718569
-- texlive-gmverse
-- texlive-gmverse
-- texlive-gmverse
-- texlive-gmverse
-
