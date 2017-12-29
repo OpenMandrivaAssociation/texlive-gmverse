@@ -1,12 +1,6 @@
-# revision 29803
-# category Package
-# catalog-ctan /macros/latex/contrib/gmverse
-# catalog-date 2012-05-17 22:49:03 +0200
-# catalog-license lppl
-# catalog-version v0.73
 Name:		texlive-gmverse
-Version:	v0.73
-Release:	11
+Version:	0.73
+Release:	1
 Summary:	A package for typesetting (short) poems
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gmverse
