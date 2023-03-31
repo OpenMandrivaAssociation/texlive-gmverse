@@ -1,6 +1,6 @@
 Name:		texlive-gmverse
 Version:	29803
-Release:	1
+Release:	2
 Summary:	A package for typesetting (short) poems
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gmverse
