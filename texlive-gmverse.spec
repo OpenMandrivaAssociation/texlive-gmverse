@@ -3,7 +3,7 @@ Version:	29803
 Release:	2
 Summary:	A package for typesetting (short) poems
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gmverse
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/gmverse
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gmverse.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gmverse.doc.r%{version}.tar.xz
